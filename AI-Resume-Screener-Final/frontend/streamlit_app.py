@@ -48,7 +48,7 @@ section[data-testid="stSidebar"] * { color:#eef2f7 !important; }
 )
 
 if "api_url" not in st.session_state:
-    st.session_state.api_url = "http://127.0.0.1:8000"
+    st.session_state.api_url = "https://talentlens-api-6ke6.onrender.com"
 if "page" not in st.session_state:
     st.session_state.page = "Dashboard"
 if "selected_candidate" not in st.session_state:
