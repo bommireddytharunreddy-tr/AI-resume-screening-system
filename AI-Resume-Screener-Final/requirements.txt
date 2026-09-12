@@ -11,5 +11,6 @@ pandas==3.0.5
 requests==2.34.2
 streamlit>=1.40,<2
 plotly>=5.24,<7
+
 sentence-transformers==5.6.1
 torch==2.8.0
